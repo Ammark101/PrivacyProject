@@ -7,15 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0542661C221ED6CE00B7418A /* TherapistInputHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542661B221ED6CE00B7418A /* TherapistInputHandler.swift */; };
-		058F95602213BFAC0020519E /* PatientInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058F955E2213BFAC0020519E /* PatientInterface.storyboard */; };
-		058F95622213C0010020519E /* TherapistInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058F95612213C0010020519E /* TherapistInterface.storyboard */; };
+		058F95602213BFAC0020519E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058F955E2213BFAC0020519E /* Main.storyboard */; };
 		058F9564221C31D50020519E /* CameraAndPhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F9563221C31D50020519E /* CameraAndPhotoManager.swift */; };
-		058F9566221C41050020519E /* UserAgreementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F9565221C41040020519E /* UserAgreementController.swift */; };
-		058F956E221DB3700020519E /* UserAgreementSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F956D221DB3700020519E /* UserAgreementSections.swift */; };
 		0591DF9A21F3883500A4EC03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DF9921F3883500A4EC03 /* AppDelegate.swift */; };
 		0591DF9C21F3883500A4EC03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DF9B21F3883500A4EC03 /* ViewController.swift */; };
-		0591DF9F21F3883500A4EC03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591DF9D21F3883500A4EC03 /* Main.storyboard */; };
 		0591DFA221F3883500A4EC03 /* Home_Guardian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFA021F3883500A4EC03 /* Home_Guardian.xcdatamodeld */; };
 		0591DFA421F3883800A4EC03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0591DFA321F3883800A4EC03 /* Assets.xcassets */; };
 		0591DFA721F3883800A4EC03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591DFA521F3883800A4EC03 /* LaunchScreen.storyboard */; };
@@ -42,16 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0542661B221ED6CE00B7418A /* TherapistInputHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapistInputHandler.swift; sourceTree = "<group>"; };
-		058F955F2213BFAC0020519E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Home Guardian/Base.lproj/PatientInterface.storyboard"; sourceTree = "<group>"; };
-		058F95612213C0010020519E /* TherapistInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TherapistInterface.storyboard; sourceTree = "<group>"; };
+		058F955F2213BFAC0020519E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Home Guardian/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		058F9563221C31D50020519E /* CameraAndPhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAndPhotoManager.swift; sourceTree = "<group>"; };
-		058F9565221C41040020519E /* UserAgreementController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreementController.swift; sourceTree = "<group>"; };
-		058F956D221DB3700020519E /* UserAgreementSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreementSections.swift; sourceTree = "<group>"; };
 		0591DF9621F3883500A4EC03 /* Home Guardian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Guardian.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0591DF9921F3883500A4EC03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0591DF9B21F3883500A4EC03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0591DF9E21F3883500A4EC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0591DFA121F3883500A4EC03 /* Home_Guardian.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Home_Guardian.xcdatamodel; sourceTree = "<group>"; };
 		0591DFA321F3883800A4EC03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0591DFA621F3883800A4EC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -114,16 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				0591DFA521F3883800A4EC03 /* LaunchScreen.storyboard */,
-				0591DF9D21F3883500A4EC03 /* Main.storyboard */,
-				058F95612213C0010020519E /* TherapistInterface.storyboard */,
-				058F955E2213BFAC0020519E /* PatientInterface.storyboard */,
-				058F956D221DB3700020519E /* UserAgreementSections.swift */,
-				058F9565221C41040020519E /* UserAgreementController.swift */,
+				058F955E2213BFAC0020519E /* Main.storyboard */,
 				058F9563221C31D50020519E /* CameraAndPhotoManager.swift */,
 				0591DF9921F3883500A4EC03 /* AppDelegate.swift */,
 				0591DF9B21F3883500A4EC03 /* ViewController.swift */,
 				05EFC20121F7B2F9006B734F /* PatientInputHandler.swift */,
-				0542661B221ED6CE00B7418A /* TherapistInputHandler.swift */,
 				0591DFA321F3883800A4EC03 /* Assets.xcassets */,
 				0591DFA821F3883800A4EC03 /* Info.plist */,
 				0591DFA021F3883500A4EC03 /* Home_Guardian.xcdatamodeld */,
@@ -256,11 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				058F95602213BFAC0020519E /* PatientInterface.storyboard in Resources */,
+				058F95602213BFAC0020519E /* Main.storyboard in Resources */,
 				0591DFA721F3883800A4EC03 /* LaunchScreen.storyboard in Resources */,
-				058F95622213C0010020519E /* TherapistInterface.storyboard in Resources */,
 				0591DFA421F3883800A4EC03 /* Assets.xcassets in Resources */,
-				0591DF9F21F3883500A4EC03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,14 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0542661C221ED6CE00B7418A /* TherapistInputHandler.swift in Sources */,
 				0591DF9C21F3883500A4EC03 /* ViewController.swift in Sources */,
 				0591DFA221F3883500A4EC03 /* Home_Guardian.xcdatamodeld in Sources */,
 				0591DF9A21F3883500A4EC03 /* AppDelegate.swift in Sources */,
 				058F9564221C31D50020519E /* CameraAndPhotoManager.swift in Sources */,
-				058F956E221DB3700020519E /* UserAgreementSections.swift in Sources */,
 				05EFC20221F7B2F9006B734F /* PatientInputHandler.swift in Sources */,
-				058F9566221C41050020519E /* UserAgreementController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,18 +308,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		058F955E2213BFAC0020519E /* PatientInterface.storyboard */ = {
+		058F955E2213BFAC0020519E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				058F955F2213BFAC0020519E /* Base */,
-			);
-			name = PatientInterface.storyboard;
-			sourceTree = "<group>";
-		};
-		0591DF9D21F3883500A4EC03 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0591DF9E21F3883500A4EC03 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
