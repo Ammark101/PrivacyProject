@@ -14,8 +14,8 @@
 		0591DFA221F3883500A4EC03 /* Home_Guardian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFA021F3883500A4EC03 /* Home_Guardian.xcdatamodeld */; };
 		0591DFA421F3883800A4EC03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0591DFA321F3883800A4EC03 /* Assets.xcassets */; };
 		0591DFA721F3883800A4EC03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591DFA521F3883800A4EC03 /* LaunchScreen.storyboard */; };
-		0591DFB221F3883800A4EC03 /* Home_GuardianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFB121F3883800A4EC03 /* Home_GuardianTests.swift */; };
-		0591DFBD21F3883800A4EC03 /* Home_GuardianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFBC21F3883800A4EC03 /* Home_GuardianUITests.swift */; };
+		0591DFB221F3883800A4EC03 /* Privacy_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFB121F3883800A4EC03 /* Privacy_ProjectTests.swift */; };
+		0591DFBD21F3883800A4EC03 /* Privacy_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFBC21F3883800A4EC03 /* Privacy_ProjectUITests.swift */; };
 		05EFC20221F7B2F9006B734F /* PasswordnputHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EFC20121F7B2F9006B734F /* PasswordnputHandler.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,10 +47,10 @@
 		0591DFA621F3883800A4EC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0591DFA821F3883800A4EC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0591DFAD21F3883800A4EC03 /* Privacy ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Privacy ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0591DFB121F3883800A4EC03 /* Home_GuardianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_GuardianTests.swift; sourceTree = "<group>"; };
+		0591DFB121F3883800A4EC03 /* Privacy_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Privacy_ProjectTests.swift; sourceTree = "<group>"; };
 		0591DFB321F3883800A4EC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0591DFB821F3883800A4EC03 /* Privacy ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Privacy ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0591DFBC21F3883800A4EC03 /* Home_GuardianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_GuardianUITests.swift; sourceTree = "<group>"; };
+		0591DFBC21F3883800A4EC03 /* Privacy_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Privacy_ProjectUITests.swift; sourceTree = "<group>"; };
 		0591DFBE21F3883800A4EC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05EFC20121F7B2F9006B734F /* PasswordnputHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordnputHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,7 +119,7 @@
 		0591DFB021F3883800A4EC03 /* Privacy ProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				0591DFB121F3883800A4EC03 /* Home_GuardianTests.swift */,
+				0591DFB121F3883800A4EC03 /* Privacy_ProjectTests.swift */,
 				0591DFB321F3883800A4EC03 /* Info.plist */,
 			);
 			path = "Privacy ProjectTests";
@@ -128,7 +128,7 @@
 		0591DFBB21F3883800A4EC03 /* Privacy ProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0591DFBC21F3883800A4EC03 /* Home_GuardianUITests.swift */,
+				0591DFBC21F3883800A4EC03 /* Privacy_ProjectUITests.swift */,
 				0591DFBE21F3883800A4EC03 /* Info.plist */,
 			);
 			path = "Privacy ProjectUITests";
@@ -280,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0591DFB221F3883800A4EC03 /* Home_GuardianTests.swift in Sources */,
+				0591DFB221F3883800A4EC03 /* Privacy_ProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0591DFBD21F3883800A4EC03 /* Home_GuardianUITests.swift in Sources */,
+				0591DFBD21F3883800A4EC03 /* Privacy_ProjectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

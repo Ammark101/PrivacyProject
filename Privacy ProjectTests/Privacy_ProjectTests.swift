@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import Home_Guardian
+@testable import Privacy_Project
 
-class Home_GuardianTests: XCTestCase {
+class Privacy_ProjectTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
