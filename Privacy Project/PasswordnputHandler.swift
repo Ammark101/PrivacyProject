@@ -78,7 +78,7 @@ class PasswordInputHandler: UIViewController, UIPickerViewDataSource, UIPickerVi
         
         if textField == self.clinicTextBox {
             self.clinicDropDown.isHidden = false
-            //if you don't want the users to se the keyboard type:
+            //if you don't want the users to see the keyboard type:
             
             textField.endEditing(true)
         }
