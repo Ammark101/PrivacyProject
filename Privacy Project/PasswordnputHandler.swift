@@ -1,14 +1,14 @@
 //
-//  PatientInputHandler.swift
-//  Home Guardian
+//  PasswordInputHandler.swift
+//  Privacy Project
 //
-//  Created by Timothy Dai on 1/22/19.
-//  Copyright © 2019 Capstone. All rights reserved.
+//  Created by Timothy/Ammar/Chandra on 10/17/19.
+//  Copyright © 2019 PETS. All rights reserved.
 //
 
 import UIKit
 
-class PatientInputHandler: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate {
+class PasswordInputHandler: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate {
 
     @IBOutlet weak var clinicTextBox: UITextField!
     @IBOutlet weak var clinicDropDown: UIPickerView!

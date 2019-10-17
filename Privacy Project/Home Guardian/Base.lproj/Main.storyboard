@@ -11,7 +11,7 @@
         <!--Clinic Information - Patient-->
         <scene sceneID="eHK-om-Sy2">
             <objects>
-                <viewController title="Clinic Information - Patient" id="Gec-IW-rRh" customClass="PatientInputHandler" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Clinic Information - Patient" id="Gec-IW-rRh" customClass="PasswordInputHandler" customModule="Privacy_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eFs-IZ-hWO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,7 +96,7 @@
         <!--Camera and Photo Manager-->
         <scene sceneID="xwk-ag-os0">
             <objects>
-                <viewController title="Camera and Photo Manager" id="j3m-ra-pcJ" customClass="CameraAndPhotoManager" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Camera and Photo Manager" id="j3m-ra-pcJ" customClass="CameraAndPhotoManager" customModule="Privacy_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8lZ-yE-3O5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,10 +140,10 @@
             </objects>
             <point key="canvasLocation" x="3793" y="-2529"/>
         </scene>
-        <!--Upload-->
+        <!--Storage/Gallery-->
         <scene sceneID="SX4-iY-X8N">
             <objects>
-                <viewController title="Upload" id="tN4-zo-CCG" sceneMemberID="viewController">
+                <viewController title="Storage/Gallery" id="tN4-zo-CCG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l8h-ee-hCY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -163,7 +163,7 @@
                                     <constraint firstAttribute="height" constant="239" id="poG-As-sKH"/>
                                 </constraints>
                                 <string key="text">Placeholder for Successful
-Upload Notification</string>
+Photo Storage</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -204,10 +204,10 @@ Upload Notification</string>
             </objects>
             <point key="canvasLocation" x="986" y="-2529"/>
         </scene>
-        <!--Main Page-->
+        <!--Main Menu-->
         <scene sceneID="l1I-Tc-PSA">
             <objects>
-                <viewController storyboardIdentifier="mainmenu" title="Main Page" id="ToQ-2a-u87" customClass="ViewController" customModule="Home_Guardian" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mainmenu" title="Main Menu" id="ToQ-2a-u87" customClass="ViewController" customModule="Privacy_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tuT-cM-16B">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -221,7 +221,7 @@ Upload Notification</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <state key="normal" title="Camera"/>
                                 <connections>
-                                    <action selector="onGoToPatient:" destination="ToQ-2a-u87" eventType="touchUpInside" id="1Nh-zK-eju"/>
+                                    <action selector="onGoToPrivacyProject:" destination="ToQ-2a-u87" eventType="touchUpInside" id="1Nh-zK-eju"/>
                                     <segue destination="j3m-ra-pcJ" kind="show" id="1ra-2x-N5s"/>
                                 </connections>
                             </button>
@@ -267,7 +267,7 @@ Upload Notification</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VTk-JL-diX"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Main Page" id="aaL-lx-9lz"/>
+                    <navigationItem key="navigationItem" title="Main Menu" id="aaL-lx-9lz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uzy-Cj-gM4" sceneMemberID="firstResponder"/>
             </objects>

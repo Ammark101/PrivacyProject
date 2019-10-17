@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  Home Guardian
+//  Privacy Project
 //
-//  Created by Timothy Dai on 1/19/19.
-//  Copyright © 2019 Capstone. All rights reserved.
+//  Created by Timothy/Ammar/Chandra on 10/17/19.
+//  Copyright © 2019 PETS. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func onGoToPatient(_ sender: Any) {
+    @IBAction func onGoToPrivacyProject(_ sender: Any) {
     }
     
 }

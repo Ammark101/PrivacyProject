@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Home Guardian
+//  Privacy Project
 //
-//  Created by Timothy Dai on 1/19/19.
-//  Copyright © 2019 Capstone. All rights reserved.
+//  Created by Timothy/Ammar/Chandra on 10/17/19.
+//  Copyright © 2019 PETS. All rights reserved.
 //
 
 import UIKit

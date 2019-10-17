@@ -1,9 +1,9 @@
 //
 //  Home_GuardianUITests.swift
-//  Home GuardianUITests
+//  Privacy ProjectUITests
 //
-//  Created by Timothy Dai on 1/19/19.
-//  Copyright © 2019 Capstone. All rights reserved.
+//  Created by Timothy/Ammar/Chandra on 1/19/19.
+//  Copyright © 2019 PETS. All rights reserved.
 //
 
 import XCTest

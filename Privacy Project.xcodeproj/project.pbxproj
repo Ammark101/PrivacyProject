@@ -16,7 +16,7 @@
 		0591DFA721F3883800A4EC03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591DFA521F3883800A4EC03 /* LaunchScreen.storyboard */; };
 		0591DFB221F3883800A4EC03 /* Home_GuardianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFB121F3883800A4EC03 /* Home_GuardianTests.swift */; };
 		0591DFBD21F3883800A4EC03 /* Home_GuardianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFBC21F3883800A4EC03 /* Home_GuardianUITests.swift */; };
-		05EFC20221F7B2F9006B734F /* PatientInputHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EFC20121F7B2F9006B734F /* PatientInputHandler.swift */; };
+		05EFC20221F7B2F9006B734F /* PasswordnputHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EFC20121F7B2F9006B734F /* PasswordnputHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,20 +39,20 @@
 /* Begin PBXFileReference section */
 		058F955F2213BFAC0020519E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Home Guardian/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		058F9563221C31D50020519E /* CameraAndPhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAndPhotoManager.swift; sourceTree = "<group>"; };
-		0591DF9621F3883500A4EC03 /* Home Guardian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Guardian.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0591DF9621F3883500A4EC03 /* Privacy Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Privacy Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0591DF9921F3883500A4EC03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0591DF9B21F3883500A4EC03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0591DFA121F3883500A4EC03 /* Home_Guardian.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Home_Guardian.xcdatamodel; sourceTree = "<group>"; };
 		0591DFA321F3883800A4EC03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0591DFA621F3883800A4EC03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0591DFA821F3883800A4EC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0591DFAD21F3883800A4EC03 /* Home GuardianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home GuardianTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0591DFAD21F3883800A4EC03 /* Privacy ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Privacy ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0591DFB121F3883800A4EC03 /* Home_GuardianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_GuardianTests.swift; sourceTree = "<group>"; };
 		0591DFB321F3883800A4EC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0591DFB821F3883800A4EC03 /* Home GuardianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home GuardianUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0591DFB821F3883800A4EC03 /* Privacy ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Privacy ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0591DFBC21F3883800A4EC03 /* Home_GuardianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_GuardianUITests.swift; sourceTree = "<group>"; };
 		0591DFBE21F3883800A4EC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05EFC20121F7B2F9006B734F /* PatientInputHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientInputHandler.swift; sourceTree = "<group>"; };
+		05EFC20121F7B2F9006B734F /* PasswordnputHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordnputHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 		0591DF8D21F3883500A4EC03 = {
 			isa = PBXGroup;
 			children = (
-				0591DF9821F3883500A4EC03 /* Home Guardian */,
-				0591DFB021F3883800A4EC03 /* Home GuardianTests */,
-				0591DFBB21F3883800A4EC03 /* Home GuardianUITests */,
+				0591DF9821F3883500A4EC03 /* Privacy Project */,
+				0591DFB021F3883800A4EC03 /* Privacy ProjectTests */,
+				0591DFBB21F3883800A4EC03 /* Privacy ProjectUITests */,
 				0591DF9721F3883500A4EC03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,14 +93,14 @@
 		0591DF9721F3883500A4EC03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0591DF9621F3883500A4EC03 /* Home Guardian.app */,
-				0591DFAD21F3883800A4EC03 /* Home GuardianTests.xctest */,
-				0591DFB821F3883800A4EC03 /* Home GuardianUITests.xctest */,
+				0591DF9621F3883500A4EC03 /* Privacy Project.app */,
+				0591DFAD21F3883800A4EC03 /* Privacy ProjectTests.xctest */,
+				0591DFB821F3883800A4EC03 /* Privacy ProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0591DF9821F3883500A4EC03 /* Home Guardian */ = {
+		0591DF9821F3883500A4EC03 /* Privacy Project */ = {
 			isa = PBXGroup;
 			children = (
 				0591DFA521F3883800A4EC03 /* LaunchScreen.storyboard */,
@@ -108,38 +108,38 @@
 				058F9563221C31D50020519E /* CameraAndPhotoManager.swift */,
 				0591DF9921F3883500A4EC03 /* AppDelegate.swift */,
 				0591DF9B21F3883500A4EC03 /* ViewController.swift */,
-				05EFC20121F7B2F9006B734F /* PatientInputHandler.swift */,
+				05EFC20121F7B2F9006B734F /* PasswordnputHandler.swift */,
 				0591DFA321F3883800A4EC03 /* Assets.xcassets */,
 				0591DFA821F3883800A4EC03 /* Info.plist */,
 				0591DFA021F3883500A4EC03 /* Home_Guardian.xcdatamodeld */,
 			);
-			path = "Home Guardian";
+			path = "Privacy Project";
 			sourceTree = "<group>";
 		};
-		0591DFB021F3883800A4EC03 /* Home GuardianTests */ = {
+		0591DFB021F3883800A4EC03 /* Privacy ProjectTests */ = {
 			isa = PBXGroup;
 			children = (
 				0591DFB121F3883800A4EC03 /* Home_GuardianTests.swift */,
 				0591DFB321F3883800A4EC03 /* Info.plist */,
 			);
-			path = "Home GuardianTests";
+			path = "Privacy ProjectTests";
 			sourceTree = "<group>";
 		};
-		0591DFBB21F3883800A4EC03 /* Home GuardianUITests */ = {
+		0591DFBB21F3883800A4EC03 /* Privacy ProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
 				0591DFBC21F3883800A4EC03 /* Home_GuardianUITests.swift */,
 				0591DFBE21F3883800A4EC03 /* Info.plist */,
 			);
-			path = "Home GuardianUITests";
+			path = "Privacy ProjectUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0591DF9521F3883500A4EC03 /* Home Guardian */ = {
+		0591DF9521F3883500A4EC03 /* Privacy Project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0591DFC121F3883900A4EC03 /* Build configuration list for PBXNativeTarget "Home Guardian" */;
+			buildConfigurationList = 0591DFC121F3883900A4EC03 /* Build configuration list for PBXNativeTarget "Privacy Project" */;
 			buildPhases = (
 				0591DF9221F3883500A4EC03 /* Sources */,
 				0591DF9321F3883500A4EC03 /* Frameworks */,
@@ -149,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = "Home Guardian";
+			name = "Privacy Project";
 			productName = "Home Guardian";
-			productReference = 0591DF9621F3883500A4EC03 /* Home Guardian.app */;
+			productReference = 0591DF9621F3883500A4EC03 /* Privacy Project.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0591DFAC21F3883800A4EC03 /* Home GuardianTests */ = {
+		0591DFAC21F3883800A4EC03 /* Privacy ProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0591DFC421F3883900A4EC03 /* Build configuration list for PBXNativeTarget "Home GuardianTests" */;
+			buildConfigurationList = 0591DFC421F3883900A4EC03 /* Build configuration list for PBXNativeTarget "Privacy ProjectTests" */;
 			buildPhases = (
 				0591DFA921F3883800A4EC03 /* Sources */,
 				0591DFAA21F3883800A4EC03 /* Frameworks */,
@@ -167,14 +167,14 @@
 			dependencies = (
 				0591DFAF21F3883800A4EC03 /* PBXTargetDependency */,
 			);
-			name = "Home GuardianTests";
+			name = "Privacy ProjectTests";
 			productName = "Home GuardianTests";
-			productReference = 0591DFAD21F3883800A4EC03 /* Home GuardianTests.xctest */;
+			productReference = 0591DFAD21F3883800A4EC03 /* Privacy ProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0591DFB721F3883800A4EC03 /* Home GuardianUITests */ = {
+		0591DFB721F3883800A4EC03 /* Privacy ProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0591DFC721F3883900A4EC03 /* Build configuration list for PBXNativeTarget "Home GuardianUITests" */;
+			buildConfigurationList = 0591DFC721F3883900A4EC03 /* Build configuration list for PBXNativeTarget "Privacy ProjectUITests" */;
 			buildPhases = (
 				0591DFB421F3883800A4EC03 /* Sources */,
 				0591DFB521F3883800A4EC03 /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				0591DFBA21F3883800A4EC03 /* PBXTargetDependency */,
 			);
-			name = "Home GuardianUITests";
+			name = "Privacy ProjectUITests";
 			productName = "Home GuardianUITests";
-			productReference = 0591DFB821F3883800A4EC03 /* Home GuardianUITests.xctest */;
+			productReference = 0591DFB821F3883800A4EC03 /* Privacy ProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0591DF9121F3883500A4EC03 /* Build configuration list for PBXProject "Home Guardian" */;
+			buildConfigurationList = 0591DF9121F3883500A4EC03 /* Build configuration list for PBXProject "Privacy Project" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0591DF9521F3883500A4EC03 /* Home Guardian */,
-				0591DFAC21F3883800A4EC03 /* Home GuardianTests */,
-				0591DFB721F3883800A4EC03 /* Home GuardianUITests */,
+				0591DF9521F3883500A4EC03 /* Privacy Project */,
+				0591DFAC21F3883800A4EC03 /* Privacy ProjectTests */,
+				0591DFB721F3883800A4EC03 /* Privacy ProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +272,7 @@
 				0591DFA221F3883500A4EC03 /* Home_Guardian.xcdatamodeld in Sources */,
 				0591DF9A21F3883500A4EC03 /* AppDelegate.swift in Sources */,
 				058F9564221C31D50020519E /* CameraAndPhotoManager.swift in Sources */,
-				05EFC20221F7B2F9006B734F /* PatientInputHandler.swift in Sources */,
+				05EFC20221F7B2F9006B734F /* PasswordnputHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +297,12 @@
 /* Begin PBXTargetDependency section */
 		0591DFAF21F3883800A4EC03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0591DF9521F3883500A4EC03 /* Home Guardian */;
+			target = 0591DF9521F3883500A4EC03 /* Privacy Project */;
 			targetProxy = 0591DFAE21F3883800A4EC03 /* PBXContainerItemProxy */;
 		};
 		0591DFBA21F3883800A4EC03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0591DF9521F3883500A4EC03 /* Home Guardian */;
+			target = 0591DF9521F3883500A4EC03 /* Privacy Project */;
 			targetProxy = 0591DFB921F3883800A4EC03 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -449,7 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2ZV95B8B4U;
-				INFOPLIST_FILE = "Home Guardian/Info.plist";
+				INFOPLIST_FILE = "Privacy Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,7 +467,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2ZV95B8B4U;
-				INFOPLIST_FILE = "Home Guardian/Info.plist";
+				INFOPLIST_FILE = "Privacy Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,7 +485,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Home GuardianTests/Info.plist";
+				INFOPLIST_FILE = "Privacy ProjectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,7 +495,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Guardian.app/Home Guardian";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Privacy Project.app/Privacy Project";
 			};
 			name = Debug;
 		};
@@ -505,7 +505,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Home GuardianTests/Info.plist";
+				INFOPLIST_FILE = "Privacy ProjectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -515,7 +515,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Guardian.app/Home Guardian";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Privacy Project.app/Privacy Project";
 			};
 			name = Release;
 		};
@@ -524,7 +524,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Home GuardianUITests/Info.plist";
+				INFOPLIST_FILE = "Privacy ProjectUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,7 +543,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Home GuardianUITests/Info.plist";
+				INFOPLIST_FILE = "Privacy ProjectUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0591DF9121F3883500A4EC03 /* Build configuration list for PBXProject "Home Guardian" */ = {
+		0591DF9121F3883500A4EC03 /* Build configuration list for PBXProject "Privacy Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0591DFBF21F3883800A4EC03 /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0591DFC121F3883900A4EC03 /* Build configuration list for PBXNativeTarget "Home Guardian" */ = {
+		0591DFC121F3883900A4EC03 /* Build configuration list for PBXNativeTarget "Privacy Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0591DFC221F3883900A4EC03 /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0591DFC421F3883900A4EC03 /* Build configuration list for PBXNativeTarget "Home GuardianTests" */ = {
+		0591DFC421F3883900A4EC03 /* Build configuration list for PBXNativeTarget "Privacy ProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0591DFC521F3883900A4EC03 /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0591DFC721F3883900A4EC03 /* Build configuration list for PBXNativeTarget "Home GuardianUITests" */ = {
+		0591DFC721F3883900A4EC03 /* Build configuration list for PBXNativeTarget "Privacy ProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0591DFC821F3883900A4EC03 /* Debug */,
