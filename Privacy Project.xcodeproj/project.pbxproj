@@ -16,6 +16,7 @@
 		0591DFA721F3883800A4EC03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591DFA521F3883800A4EC03 /* LaunchScreen.storyboard */; };
 		0591DFB221F3883800A4EC03 /* Privacy_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFB121F3883800A4EC03 /* Privacy_ProjectTests.swift */; };
 		0591DFBD21F3883800A4EC03 /* Privacy_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591DFBC21F3883800A4EC03 /* Privacy_ProjectUITests.swift */; };
+		05C224AA236B89F100D969A1 /* PrivateGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C224A9236B89F100D969A1 /* PrivateGallery.swift */; };
 		05EFC20221F7B2F9006B734F /* PasswordnputHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EFC20121F7B2F9006B734F /* PasswordnputHandler.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		0591DFB821F3883800A4EC03 /* Privacy ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Privacy ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0591DFBC21F3883800A4EC03 /* Privacy_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Privacy_ProjectUITests.swift; sourceTree = "<group>"; };
 		0591DFBE21F3883800A4EC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C224A9236B89F100D969A1 /* PrivateGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateGallery.swift; sourceTree = "<group>"; };
 		05EFC20121F7B2F9006B734F /* PasswordnputHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordnputHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 				0591DFA321F3883800A4EC03 /* Assets.xcassets */,
 				0591DFA821F3883800A4EC03 /* Info.plist */,
 				0591DFA021F3883500A4EC03 /* Home_Guardian.xcdatamodeld */,
+				05C224A9236B89F100D969A1 /* PrivateGallery.swift */,
 			);
 			path = "Privacy Project";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			files = (
 				0591DF9C21F3883500A4EC03 /* ViewController.swift in Sources */,
 				0591DFA221F3883500A4EC03 /* Home_Guardian.xcdatamodeld in Sources */,
+				05C224AA236B89F100D969A1 /* PrivateGallery.swift in Sources */,
 				0591DF9A21F3883500A4EC03 /* AppDelegate.swift in Sources */,
 				058F9564221C31D50020519E /* CameraAndPhotoManager.swift in Sources */,
 				05EFC20221F7B2F9006B734F /* PasswordnputHandler.swift in Sources */,
