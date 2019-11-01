@@ -8,6 +8,39 @@
 
 import UIKit
 
+extension String {
+
+    enum ValidityType {
+        case age
+        case email
+        case password
+    }
+
+    enum Regex: String {
+        case age = "[0-9]{2,2}"
+        case email = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+        case password = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[$@$!%*?&#])[A-Za-z\\d$@$!%*?&#]{6,25}"
+
+    func isValid(_ validityType: ValidityType) -> Bool {
+        let format = "SELF MATCHES %@"
+        var regex = ""
+
+
+        switch validityType {
+        case .age:
+            regex = Regex.age.rawValue
+        case .email:
+            regex = Regex.email.rawValue
+        case .password:
+            regex = Regex.password.rawValue
+        }
+        return NSPredicate(format: format, regex).evaluate(with: self)
+
+    }
+    }
+}
+
+
 class PasswordInputHandler: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate {
 
     @IBOutlet weak var clinicTextBox: UITextField!
@@ -95,6 +128,8 @@ class PasswordInputHandler: UIViewController, UIPickerViewDataSource, UIPickerVi
         self.view.endEditing(true)
         return true
     }
+    
+    
     
     /*
     // MARK: - Navigation
